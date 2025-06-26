@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: ProductSans;
+    transition: all 1s;
+}
+@font-face {
+    font-family: ProductSans;
+    src: url(../../assets/fonts/ProductSansRegular.ttf);
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    
+}
+table,th,td{
+    border: 2px solid green;
+    border-collapse: collapse;
+    
+}
+
+thead{
+    color: red;
+}
+#outer_circle{
+    width: 6vw;
+    height: 3vw;
+    background-color: lightcoral;
+    border-radius: 40px;
+    
+}
+#inner_circle{
+    width:50%;
+    height: 100%;
+    background-color: black;
+    border-radius:40px ;
+    transition: all 1s;
+}
+section{
+    margin-top: 2vw;
+}

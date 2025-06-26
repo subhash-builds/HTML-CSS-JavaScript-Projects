@@ -1,0 +1,99 @@
+*{
+    padding: 0vw;
+    margin: 0vh;
+    font-family: ProductSans;
+}
+@font-face {
+    font-family: ProductSans;
+    src: url(../../assets/fonts/ProductSansRegular.ttf);
+}
+#indian_mountain_container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-image: url(../../assets/images/himalayasindia.jpg);
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+.mountain_child{
+    width: 50vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#left_container{
+    background-color: transparent;
+    backdrop-filter: blur(1.5vw);
+    text-align: right;
+}
+#right_container{
+    text-align: left;
+}
+.left_container_heading_one{
+    background-image: url(../../assets/images/himalayasindia.jpg);
+    background-clip: text;
+    background-size: 200%;
+    background-position: -100px -50px;
+    background-repeat: no-repeat;
+    color: transparent;
+ }
+.heading_one{
+    font-size: 15vw;
+    letter-spacing: 4vw;
+}
+.heading_two{
+    font-size: 5vw;
+    position: absolute;
+    color: antiquewhite;
+    top: 35vw;
+    font-weight: lighter;
+    letter-spacing: 5vw;
+}
+.left_container_heading_two{
+    right: -6.3vw;
+}
+.right_container_heading_one{
+    color: bisque;
+}
+.right_container_heading_two{
+    left: -1.3vw;
+}
+#navigation_bar{
+    position: absolute;
+    width: 50vw;
+    top: 0vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.button_navigation{
+    font-size: 1.5vw;
+    border-radius: 1vw;
+    padding: 0.5vw;
+    background: none;
+    outline: none;
+    border: none;
+}
+.switching_buttons{
+    position: absolute;
+    width: 4vw;
+    height: 4vw;
+    font-size: 2vw;
+    background-color: transparent;
+    border-radius: 50%;
+    color: white;
+    outline: none;
+    border: none;
+    bottom: 0vw;
+}
+#previous_button{
+    right: 5vw;
+}
+#next_button{
+    right: 0vw;
+}
+.switching_buttons:hover{
+    background-color: white;
+    color: black;
+}

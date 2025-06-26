@@ -1,0 +1,83 @@
+*{
+    padding: 0vw;
+    margin: 0vw;
+    font-family: Productsans;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    color: white;
+}
+@font-face{
+    font-family: Productsans;
+    src: url(../../assets/fonts/ProductSansRegular.ttf);
+}
+#heading_signin{
+    text-align: center;
+    color: darkgreen;
+}
+#nature_container{
+    width: 70vw;
+    height: 70vh;
+    background-image: url(../../assets/images/Nature.jpg);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1vw;
+}
+#signin_Container{
+    width: 30vw;
+    height: 50vh;
+    background-color: transparent;
+    backdrop-filter: blur(.5vw);
+    border-radius: 1vw;
+    border: 1px solid lightgreen;
+}
+#signup_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inputs{
+    font-size: 1.5vw;
+    margin: .8vw;
+    border-radius: .3vw;
+    border: none;
+    outline: none;
+}
+.inputs::placeholder{
+    color: brown;
+}
+
+#termsandcondition_input,#tc{
+    position: relative;
+    font-size: 1.3vw;
+    width: 1.0vw;
+    height: 1.0vw;
+    outline: none;
+    right: 0px;
+    transition:transform 500ms;
+}
+#termsandcondition_input:active{
+    transform: scale(0.50);
+}
+#submit_button,#cancel_button{
+    width: 7vw;
+    border: none;
+    outline: none;
+    background-color: royalblue;
+    color: white;
+    transition: transform 1s;
+}
+
+#cancel_button{
+    background-color: black;
+}
+
+#submit_button:active,#cancel_button:active{
+    transform: scale(0.77);
+}

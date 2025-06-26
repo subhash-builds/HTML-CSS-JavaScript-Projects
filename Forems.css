@@ -1,0 +1,40 @@
+*{
+    padding:0px;
+    margin: 0px;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+}
+#form_student{
+   width: 50vw;
+   height: 50vh;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgreen;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2vw;
+
+}
+.input_box{
+    margin-TOP: 1vw;
+    width: 15vw;
+}
+.button_inputs{
+    margin-TOP: 1vw;
+    width: 10vw;
+}
+span{
+    margin-left: 0.3vw;
+}
+/* .check_and_radio{
+
+    display: ;
+
+} */

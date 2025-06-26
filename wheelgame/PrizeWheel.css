@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: skyblue;
+    
+}
+
+#wheel_container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10vw;
+
+}
+
+
+#game_heading{
+    text-align: center;
+    font-size: 3vw;
+}
+.wheel{
+
+    width: 20vw;
+    transition: all 3s;
+
+}
+.arrow{
+    width: 5vw;
+    position: relative;
+    top: -.4vw;
+    left: -.5vw;
+}

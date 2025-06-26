@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <script src="Forms.js" defer></script>
+    <link rel="stylesheet" href="Forems.css">
+</head>
+<body>
+    <form action="" id="form_student">
+
+        <input type="text" name="UserName" id="user_name" placeholder="User Name" minlength="3" required class="input_box">
+        <input type="password" name="passsword" id="password_input" minlength="3" required class="input_box" placeholder="Password"> 
+        <input type="email" name="emailid" id="emailid" class="input_box" placeholder="EmailId">
+        <input type="number" name="Age" id="age" min="18" max="25" required placeholder="Age" class="input_box">
+        <div class="check_and_radio">
+            <span>Gender:</span>
+            <input type="radio" name="gender" id="male" value="male"><span>Male</span>
+        <input type="radio" name="gender" id="female" value="female"><span>Female</span>
+        <!-- </div>
+        <div class="check_and_radio">
+            <label for="Skils">Skills:</label>
+            <input type="checkbox" name="skills" id=""><span>Java Programming</span>
+            <input type="checkbox" name="skills" id=""><span>CoreJava</span>
+             <input type="checkbox" name="skills" id=""><span>AdvancedJava</span>
+            <input type="checkbox" name="skills" id=""><span>JavaScript</span>
+            <input type="checkbox" name="skills" id=""><span>SQL</span> -->
+        <!-- </div>  -->
+        <!-- <input type="tel" name="mobilenumber" id="mobilenumber" placeholder="Mobilenumber" maxlength="10" required class="input_box">
+        <input type="url" name="linked_url" id="linked_url" placeholder="LinkedIn url"  class="input_box">
+        <input type="date" name="date_of_birth" id="date_of_birth" class="input_box"> -->
+
+        <input type="reset" value="Add" class="button_inputs" onclick="objectCreate()">
+        <input type="submit" value="submit" class="button_inputs" >
+        <input type="reset" value="cancel" class="button_inputs">
+    </form>
+
+    
+    
+</body>
+</html>

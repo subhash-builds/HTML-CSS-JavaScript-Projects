@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPerosnalDashBoard</title>
+    <link rel="stylesheet" href="./Test.css">
+    <script src="./Test.js" defer></script>
+</head>
+
+<body>
+    <header id="name_and_date">
+        <span id="name">Name:Subhash</span>
+        Date:<span id="current_date"></span>
+    </header>
+    <section id="profile_card">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">BasicInformation</th>
+                </tr>
+                <tr>
+                    <th>Category</th>
+                    <th>Information</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Name:</th>
+                    <td>Subhash</td>
+                </tr>
+                <tr>
+                    <th>Favorite Hobby:</th>
+                    <td>Sports,Podcast,Books</td>
+                </tr>
+                <tr>
+                    <th>Favorite Color:</th>
+                    <td>Green</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="daily_goals">
+        <table>
+            <thead>
+                <tr>
+                    <th>Goals</th>
+                    <th>Progress</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Drink water:</th>
+                    <td id="drink_water_progress">0</td>
+
+                </tr>
+                <tr>
+                    <th>Study Time:</th>
+                    <td id="study_time_progess">0 </td>
+
+
+                </tr>
+                <tr>
+                    <th>Excercise:</th>
+                    <td id="excercise_progress">0</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <input type="button" value="Drink Water" onclick="addWater()" class="button">
+        <input type="button" value="Study Time" onclick="addStudyTime()" class="button">
+        <input type="button" value="Excercise" onclick="addWorkOut()" class="button">
+        <input type="button" value="Reset Today" onclick="resetToday()" class="button">
+    </section>
+    <section id="color_theme">
+        <div id="outer_circle">
+            <div id="inner_circle" onclick="rangeButton()"></div>
+        </div>
+    </section>
+
+</body>
+
+</html>
